@@ -1,0 +1,619 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Marhey:wght@415&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Marhey:wght@415&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+/* //header */
+.headerbox{
+padding:32px;
+/* background: yellow; */
+border-bottom: 1px solid rgba(0, 30, 43, 0.295);
+}  
+
+.headerimg {
+    width: 136px;
+    height: 32px;
+}
+
+.innercontainer{
+    border-radius: 0 0 80px 80px;
+    color: white;
+    padding: 88px 0;
+
+}
+
+
+.inner-container2{
+    font-size: 92px;
+}
+
+/*container2*/
+
+
+.content{
+    width: 70%;
+}
+.content > p{
+    font-size: 19px;
+}
+
+.formSize{
+    margin: 70px 0 0;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+
+.inputsize{
+    width: 100%;
+    padding: 24px;
+}
+
+
+.input-btn{
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+/* featureLearning */
+
+.contianer3-img{
+    width: 100%;
+}
+
+
+.data-container{
+    padding: 32px 24px;
+}
+
+.conatiner3-box{
+    width: 25%;
+}
+
+
+.data-box{
+    width: 100%;
+}
+
+
+/* data */
+
+
+.container4{
+    padding: 94px 0 ;
+}
+.numberData{
+    font-size: 98px;
+}
+
+/* Learning path*/
+.container5{}
+
+.container5-1{
+    width: 292px;
+}
+
+.container5-1 > h1 {
+font-size: 56px;
+}
+
+
+.container5-1 > p{
+    font-size: 18px;
+
+}
+
+.container5-2{
+    border: solid 1px black;
+    border-radius: 20px;
+
+}
+
+.container5-2 {
+    width: 70%;
+}
+
+.container5-btn{
+    padding: 14px 48px;
+    border-radius: 10px;
+    border: 1px solid;
+
+}
+
+/* mongodbuniversity */
+.container6{
+    margin-top: 185px;
+}
+.container6-heading{
+    font-size: 44px;
+}
+.container6-box{
+    gap: 60px;
+    width: 85%;
+}
+
+.container6-box1{
+    font-size: 16px;
+    gap: 10px;
+    width: 100%;
+    padding: 50px;
+    box-shadow: 0px 2px 4px rgb(41 39 39 / 55%);
+    border-radius: 10px;
+    
+}
+
+
+.container6-box1 > button{
+ padding: 16px 0;
+ border: solid 1px ;
+ border-radius: 5px;
+}
+
+.container6-box1 > label{
+    font-size: 24px;
+}
+
+/* learningexp */
+
+.container7 > h1 {
+    font-size: 45px;
+}
+.container7-data{
+    width: 336px;
+}
+
+.container7-data > h1{
+    font-size: 24px;
+}
+
+
+.container7-box-container{
+    width: 80%;
+    /* margin: 0 auto; */
+    row-gap: 80px;
+}
+
+.container7-box{
+    flex-basis: 50%;
+    
+}
+
+.container7-box img{
+    width: 70px;
+}
+
+
+/* explore */
+
+
+.container8-1{
+    width: 30%;
+    padding: 71px 0 25px 154px;
+}
+.container8-1 > h1{
+    font-size: 44px;
+}
+
+.container8-1 > p{
+    font-size: 16px;
+}
+
+.container8-1 > button{
+    padding: 16px 32px;
+    border-radius: 6px;
+}
+
+
+.container8-2{
+    width: 70%;
+    gap: 20px;
+    transform: translate(75px ,0px);
+}
+
+
+.container8-box{
+border-radius: 20px;
+overflow: hidden;
+padding:40px 48px;
+
+
+}
+
+.container8-box > img{
+width: 350px;
+}
+
+
+
+.container8-box > h3{
+    font-size: 20px;
+}
+
+.container8-box > p{
+    font-size: 14px;
+}
+
+.container8-box > button{
+
+}
+
+/* loveyourdev */
+.container9{
+padding: 126px 20px 96px;
+}
+
+.container9 > h1{
+font-size: 36px;
+}
+.container9 > p{
+
+}
+.container9 > button{
+padding: 16px 48px;
+}
+
+/* footer */
+.container10{}
+
+.innerContainer10{
+    width: 1024px;
+    padding: 64px 24px;
+}
+
+.container10-row{}
+.container10-row > img{
+    width: 150px;
+}
+
+
+.footer{
+    font-size: 12px;
+}
+/* .submenu1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    width: 100%;
+    background-color: #e22424;
+    border: 1px solid #ccc;
+    border-top: none;
+    z-index: 999;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .submenu1.show {
+    max-height: 200px; 
+} */
+
+.submenu1-container-box{
+    padding: 32px 16px;
+    
+}
+.submenu1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 680px;
+    border: 1px solid #ccc;
+    border-top: none;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s;
+  }
+
+  .submenu1-container > div > p{
+    font-size: 14px;
+  }
+
+  .submenu1-container > div {
+    margin-left: 15px;
+  }
+
+
+  .submenu1-container{
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .submenu1-container > img{
+width: 34px;
+  }
+  
+  .submenu1.show {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s; /* Remove the delay for showing */
+  }
+  
+  .submenu1-containerBox >h1{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 18px 0
+  }
+  
+  
+
+
+@media (max-width: 1250px) {
+    /* //header */
+    .icon1{
+        display: none;
+    }
+
+    .icon2{
+        display: block;
+    }
+
+    /* learingPaths */
+    .container5{
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0 20px ;
+    
+    }
+
+    .container5-1 > h1{
+        font-size: 28px;
+    }
+
+    .container5-1 > p{
+    font-size: 14px;
+    }
+ 
+    .container5-2 , .container5-1{
+        flex-basis: 100%;
+    }
+    .container5-2{
+        width: 100%;
+        margin: 20px 0 0;
+        
+    }
+
+    /* container6 */
+    .container6-box1 > label{
+        font-size: 18px;
+    }
+
+
+    .container6-box1 > p{
+        font-size: 14px;
+    }
+
+
+
+    /* learningexp */
+
+
+    /* explore */
+    .container8{
+        flex-wrap: wrap;
+    }
+
+    .container8-1 , .container8-2{
+flex-basis: 100%;
+width: auto;
+    }
+
+
+
+    /* footer */
+
+    
+  }
+
+@media (max-width: 960px) {
+    .icon3{
+        display:block;
+    }
+    .icon2{
+        display: none;
+    }
+
+    .headerbox2-1{
+        display: none;
+    }
+
+    .headerbox1{
+        justify-content: right;
+    }
+.headerbox{
+padding:15px 32px;
+
+
+
+}
+
+
+/* container2 */
+.inner-container2{
+    font-size: 48px;
+    padding: 0 0 20px;
+}
+
+/* learningSection */
+.container3-data{
+
+    margin: 0 atuo;
+}
+
+
+.conatiner3-box{
+    flex-basis: 50%;
+    }
+
+
+    .numberData{
+        font-size: 48px;
+    }  
+    
+    
+    /* mongodbuniversity */
+.container6-box{
+    flex-wrap: wrap;
+text-align: center;
+}
+.container6-box1{
+    text-align: left;
+}
+
+.container6-heading{
+    font-size: 26px;
+    text-align: center;
+}
+.container6-text{
+    padding: 0 10px;
+}
+
+
+/* learningexp */
+.container7-box-container{
+    justify-content: center;
+}
+.container7-box{
+    flex-basis: 100%;
+}
+
+.container7-data{
+    width: auto;
+}
+
+.container7 > h1 {
+font-size: 30px;
+}
+
+
+/* explore */
+
+
+/* footer */
+
+
+.container10-row{
+    flex-basis: 50%;
+    row-gap: 7px;
+
+}
+.innerContainer10{
+    row-gap: 30px;
+}
+.container10-row > span{
+    font-weight: lighter;
+} 
+
+.innerContainer10 {
+    width: 100%;
+}
+}
+
+
+@media (max-width: 750px) {
+    .inputsize{
+    padding:10px;
+    }
+
+.input-btn{
+font-size: 15px;
+padding: 9px 25px;
+
+}
+
+
+/* learningSection */
+.container3-header >h1{
+    font-size: 25px;
+    line-height: 1;
+}
+
+.container3-header > button{
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+
+/* .container3-data{
+
+    margin: 0 atuo;
+} */
+
+
+.conatiner3-box{
+    flex-basis: 100%;
+    }
+
+.contianer3-img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/* data */
+.inner-container2 {
+    font-size: 25px;
+    
+}
+
+
+.container4{
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+}
+.data-box{
+    flex-basis: 100%;
+}    
+
+
+/* mongodbuniversity */
+.container6-box1 > button{
+    font-size: 12px;
+}
+
+
+
+/* learningexp */
+
+
+
+
+
+/* explore */
+.container8{
+    padding:40px 25px;
+    row-gap: 20px;
+}
+
+.container8-1 > h1{
+    font-size: 20px;
+}
+.container8-1{
+    padding: 0;
+}
+
+.container8-1 > button {
+    padding: 7px 25px;
+    border-radius: 6px;
+}
+
+.container8-2{
+
+    transform: translate(0px ,0px);
+}
+
+
+/* footer */
+
+
+}
